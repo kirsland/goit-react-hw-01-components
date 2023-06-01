@@ -1,0 +1,25 @@
+.transaction-history {
+  width: 640px;
+  margin: 25px 0;
+  border: 1px solid #dfdfdf;
+}
+
+.transaction-history thead tr {
+  background-color: #19d7dd;
+  text-align: left;
+}
+
+.transaction-history th,
+.transaction-history td {
+  padding: 10px;
+}
+
+.transaction-history tbody tr {
+  background-color: #dfdfdf;
+}
+
+.transaction-history tbody tr:hover,
+.transaction-history tbody tr:focus {
+  background-color: #19d7dd;
+  cursor: pointer;
+}

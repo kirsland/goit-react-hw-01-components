@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 180px;
+  padding: 10px;
+  background: #f5f5f5;
+}
+
+.is-online {
+  color: greenyellow;
+}
+
+.is-offline {
+  color: red;
+}
